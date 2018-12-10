@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="329dp"
+        android:layout_height="159dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/mypro" />
+
+    <EditText
+        android:id="@+id/editTextNP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="183dp"
+        android:hint="Enter your name" />
+
+    <TextView
+        android:id="@+id/textViewKosong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/buttonSavepro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="193dp"
+        android:text="Save" />
+
+</RelativeLayout>

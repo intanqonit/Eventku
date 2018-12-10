@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PilihActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_alignParentLeft="true">
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="274dp"
+        android:layout_height="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/a" />
+
+
+    <Button
+        android:id="@+id/buttonFS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="226dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:text="Fashion Show"
+        android:layout_alignParentLeft="true" />
+
+
+    <Button
+        android:id="@+id/buttonKM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="237dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:text="Music"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/buttonP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="181dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:text="Education"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/buttonTR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="125dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:text="Training"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/buttonSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="68dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:text="Seminar"
+        android:layout_alignParentLeft="true" />
+
+
+
+</RelativeLayout>
